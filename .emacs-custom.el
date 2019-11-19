@@ -13,6 +13,7 @@
    (quote
     (org-bbdb org-bibtex org-docview org-gnus org-habit org-info org-irc org-mhe org-rmail org-w3m)))
  '(org-refile-use-outline-path (quote file))
+ '(org-startup-truncated nil)
  '(package-selected-packages
    (quote
     (zeal-at-point yaml-mode xquery-mode uuidgen tuareg tt-mode toml-mode tide smex slime rtags rainbow-mode racket-mode racer qml-mode purescript-mode powershell picolisp-mode php-mode paredit pacmacs package-lint org-pomodoro org-cliplink openwith nsis-mode nodejs-repl nix-mode nim-mode nginx-mode neotree nasm-mode multiple-cursors morganey-mode markdown-mode magit love-minor-mode less-css-mode kotlin-mode js2-mode jira-markup-mode jinja2-mode jade-mode jabber ido-ubiquitous htmlize helm-ls-git helm-git-grep helm-cmd-t haskell-mode handlebars-mode gruber-darker-theme groovy-mode graphviz-dot-mode gradle-mode google-translate go-mode glsl-mode ggtags fsharp-mode flycheck-rust fixmee evil erlang ensime emojify elpy elm-mode elfeed editorconfig dropdown-list dockerfile-mode d-mode csv-nav csharp-mode crux cmake-mode clojure-mode cil-mode buffer-move bnfc batch-mode ag ack)))
@@ -57,7 +58,8 @@
            (rainbow-mode 1)))))
  '(whitespace-style
    (quote
-    (face tabs spaces trailing space-before-tab newline indentation empty space-after-tab space-mark tab-mark))))
+    (face tabs spaces trailing space-before-tab newline indentation empty space-after-tab space-mark tab-mark)))
+ '(word-wrap t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

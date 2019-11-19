@@ -42,6 +42,7 @@
 (load "~/.emacs.rc/move-text-rc.el")
 
 (add-to-list 'auto-mode-alist '("\\.ebi\\'" . lisp-mode))
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 ;;; Packages that don't require configuration
 (rc/require
