@@ -1,7 +1,5 @@
 (add-to-list 'package-archives
              '("melpa" . "https://melpa.org/packages/") t)
-;; (add-to-list 'package-archives
-;;              '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 
 (defvar rc/package-contents-refreshed nil)
 (defvar rc/required-packages nil)
@@ -65,4 +63,3 @@
 (defun rc/remove-unused-packages ()
   (interactive)
   (message "Unused packages: %s" (rc/unused-packages)))
-
