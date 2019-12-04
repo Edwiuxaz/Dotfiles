@@ -5,3 +5,5 @@
 	      compilation-scroll-output t
 	      default-input-method "lithuanian-keyboard"
 	      visible-bell (equal system-type 'windows-nt))
+
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
