@@ -1,8 +1,8 @@
 ;;; Fonts
-(add-to-list 'default-frame-alist `(font . "Consolas-13"))
+(add-to-list 'default-frame-alist `(font . "Consolas-11"))
 (set-face-attribute 'default nil
                     :height 100
-                    :font "Consolas-13")
+                    :font "Consolas-11")
 
 ;;; GUI
 (tool-bar-mode 0)
