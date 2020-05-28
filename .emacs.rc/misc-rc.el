@@ -6,9 +6,6 @@
 	      default-input-method "lithuanian-keyboard"
 	      visible-bell (equal system-type 'windows-nt))
 
-;;; Starts editor maximized
-(add-to-list 'default-frame-alist '(fullscreen . maximized))
-
 ;;; Smooth scrolling
 ;; Vertical Scroll
 (setq scroll-step 1)
