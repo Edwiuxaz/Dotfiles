@@ -8,6 +8,7 @@
 (load "~/.emacs.rc/company-rc.el")
 (load "~/.emacs.rc/lsp-java-rc.el")
 (load "~/.emacs.rc/yasnippet-rc.el")
+(load "~/.emacs.rc/org-rc.el")
 
 (rc/require
  'company-lsp
