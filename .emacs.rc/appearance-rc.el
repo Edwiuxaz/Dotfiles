@@ -12,4 +12,5 @@
 (show-paren-mode 1)
 
 ;;; Theme
-(rc/require-theme 'atom-one-dark)
+(when (display-graphic-p)
+  (rc/require-theme 'atom-one-dark))

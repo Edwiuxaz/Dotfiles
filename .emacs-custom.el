@@ -5,7 +5,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (nov yasnippet lsp-treemacs company-lsp lsp-java company treemacs-magit treemacs-icons-dired treemacs magit atom-one-dark-theme-theme atom-one-dark-theme ido-completing-read+ dash-functional dash smex))))
+    (poet-theme poet-theme-theme org-bullets nov yasnippet lsp-treemacs company-lsp lsp-java company treemacs-magit treemacs-icons-dired treemacs magit atom-one-dark-theme-theme atom-one-dark-theme ido-completing-read+ dash-functional dash smex))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
